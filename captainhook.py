@@ -4,6 +4,7 @@ import requests
 import json
 import webhooks
 
+# store the webhook in a diff file for security and import it
 WEBHOOK_URL = webhooks.webhook_urls[0]
 
 # 8MB :(((( mfs reduced max file size aghain bru
